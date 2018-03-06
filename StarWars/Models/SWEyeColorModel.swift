@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct SWColorModel {
+struct SWEyeColorModel {
     var name: String
     var count: Int
     var order: Int
