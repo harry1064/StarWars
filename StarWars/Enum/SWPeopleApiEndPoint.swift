@@ -27,3 +27,9 @@ enum SWPeopleApiEndPoint: ApiEndPoint {
     }
     
 }
+
+extension SWPeopleApiEndPoint {
+    enum ApiKey: String {
+        case page 
+    }
+}
