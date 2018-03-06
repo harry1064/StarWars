@@ -33,6 +33,17 @@ class SWWebServiceManager {
     }
 }
 
+extension SWWebServiceManager: SWPeopleApiProtocol {
+    func getPeoples(param:Parameters, completion: @escaping (Error?, SWGETPeopleApiModel?) -> Void) {
+        SWWebServiceManager.processRequest(endPoint:SWPeopleApiEndPoint.getPeoples, param: param) { (error, data) in
+            var peopleApiModel: SWGETPeopleApiModel?
+            if let data = data {
+                peopleApiModel = try? JSONDecoder().decode(SWGETPeopleApiModel.self, from:data)
+            }
+            completion(error, peopleApiModel)
+        }
+    }
+}
 
 
 
