@@ -13,6 +13,26 @@
 		07521B7B204D3BE9004DF5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07521B79204D3BE9004DF5F0 /* LaunchScreen.storyboard */; };
 		07521B86204D3BE9004DF5F0 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521B85204D3BE9004DF5F0 /* StarWarsTests.swift */; };
 		07521B91204D3BE9004DF5F0 /* StarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521B90204D3BE9004DF5F0 /* StarWarsUITests.swift */; };
+		07521BA4204D4316004DF5F0 /* SWCharacterListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521BA3204D4316004DF5F0 /* SWCharacterListVC.swift */; };
+		07521BA6204D4418004DF5F0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521BA5204D4418004DF5F0 /* Extension.swift */; };
+		07521BAD204D8277004DF5F0 /* SWCharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521BAC204D8277004DF5F0 /* SWCharactersListViewModel.swift */; };
+		07521BB1204D833A004DF5F0 /* SWCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521BB0204D833A004DF5F0 /* SWCharacterModel.swift */; };
+		07521BB3204DC70B004DF5F0 /* SWEyeColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521BB2204DC70B004DF5F0 /* SWEyeColorModel.swift */; };
+		07521BB5204DC758004DF5F0 /* SWCharactersAndEyeColorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521BB4204DC758004DF5F0 /* SWCharactersAndEyeColorsModel.swift */; };
+		07521BBB204E2CE1004DF5F0 /* SWGETPeopleApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521BBA204E2CE1004DF5F0 /* SWGETPeopleApiModel.swift */; };
+		07521BBD204E2F88004DF5F0 /* SWGETPeopleApiModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07521BBC204E2F88004DF5F0 /* SWGETPeopleApiModelTest.swift */; };
+		0791DC74204E3E4A007D08DD /* SWCharacterModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC73204E3E4A007D08DD /* SWCharacterModelTests.swift */; };
+		0791DC76204EAF8E007D08DD /* SWCharactersAndEyeColorsModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC75204EAF8E007D08DD /* SWCharactersAndEyeColorsModelTests.swift */; };
+		0791DC78204EB758007D08DD /* SWCharacterListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC77204EB758007D08DD /* SWCharacterListCellViewModel.swift */; };
+		0791DC7A204EBD50007D08DD /* SWCharactersListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC79204EBD50007D08DD /* SWCharactersListViewModelTests.swift */; };
+		0791DC7D204EC48A007D08DD /* SWPeopleApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC7C204EC48A007D08DD /* SWPeopleApiProtocol.swift */; };
+		0791DC7F204EC616007D08DD /* SWWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC7E204EC616007D08DD /* SWWebServiceManager.swift */; };
+		0791DC81204EE0B1007D08DD /* SWMockJsonStringPeopleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC80204EE0B0007D08DD /* SWMockJsonStringPeopleApi.swift */; };
+		0791DC84204EFCA9007D08DD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791DC83204EFCA8007D08DD /* Alamofire.framework */; };
+		0791DC87204F202D007D08DD /* SWServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC86204F202D007D08DD /* SWServiceError.swift */; };
+		0791DC89204F209E007D08DD /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC88204F209E007D08DD /* NetworkStatus.swift */; };
+		0791DC8B204F3472007D08DD /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC8A204F3472007D08DD /* ApiEndPoint.swift */; };
+		0791DC8E204F3A22007D08DD /* SWPeopleApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791DC8D204F3A22007D08DD /* SWPeopleApiEndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +65,26 @@
 		07521B8C204D3BE9004DF5F0 /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07521B90204D3BE9004DF5F0 /* StarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITests.swift; sourceTree = "<group>"; };
 		07521B92204D3BE9004DF5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07521BA3204D4316004DF5F0 /* SWCharacterListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharacterListVC.swift; sourceTree = "<group>"; };
+		07521BA5204D4418004DF5F0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		07521BAC204D8277004DF5F0 /* SWCharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharactersListViewModel.swift; sourceTree = "<group>"; };
+		07521BB0204D833A004DF5F0 /* SWCharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharacterModel.swift; sourceTree = "<group>"; };
+		07521BB2204DC70B004DF5F0 /* SWEyeColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWEyeColorModel.swift; sourceTree = "<group>"; };
+		07521BB4204DC758004DF5F0 /* SWCharactersAndEyeColorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharactersAndEyeColorsModel.swift; sourceTree = "<group>"; };
+		07521BBA204E2CE1004DF5F0 /* SWGETPeopleApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWGETPeopleApiModel.swift; sourceTree = "<group>"; };
+		07521BBC204E2F88004DF5F0 /* SWGETPeopleApiModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWGETPeopleApiModelTest.swift; sourceTree = "<group>"; };
+		0791DC73204E3E4A007D08DD /* SWCharacterModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharacterModelTests.swift; sourceTree = "<group>"; };
+		0791DC75204EAF8E007D08DD /* SWCharactersAndEyeColorsModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharactersAndEyeColorsModelTests.swift; sourceTree = "<group>"; };
+		0791DC77204EB758007D08DD /* SWCharacterListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharacterListCellViewModel.swift; sourceTree = "<group>"; };
+		0791DC79204EBD50007D08DD /* SWCharactersListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharactersListViewModelTests.swift; sourceTree = "<group>"; };
+		0791DC7C204EC48A007D08DD /* SWPeopleApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeopleApiProtocol.swift; sourceTree = "<group>"; };
+		0791DC7E204EC616007D08DD /* SWWebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWWebServiceManager.swift; sourceTree = "<group>"; };
+		0791DC80204EE0B0007D08DD /* SWMockJsonStringPeopleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWMockJsonStringPeopleApi.swift; sourceTree = "<group>"; };
+		0791DC83204EFCA8007D08DD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		0791DC86204F202D007D08DD /* SWServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWServiceError.swift; sourceTree = "<group>"; };
+		0791DC88204F209E007D08DD /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		0791DC8A204F3472007D08DD /* ApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
+		0791DC8D204F3A22007D08DD /* SWPeopleApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeopleApiEndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0791DC84204EFCA9007D08DD /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +120,7 @@
 				07521B84204D3BE9004DF5F0 /* StarWarsTests */,
 				07521B8F204D3BE9004DF5F0 /* StarWarsUITests */,
 				07521B6E204D3BE8004DF5F0 /* Products */,
+				0791DC82204EFCA8007D08DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +137,15 @@
 		07521B6F204D3BE8004DF5F0 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
+				07BB6F46204F455600EF488C /* SWWebServiceManager */,
+				0791DC8C204F39F0007D08DD /* Enum */,
+				0791DC7B204EC464007D08DD /* Protocols */,
+				07521BAF204D8297004DF5F0 /* ViewModels */,
+				07521BAE204D8280004DF5F0 /* Models */,
+				07521BA2204D42C4004DF5F0 /* Views */,
 				07521B9E204D41C7004DF5F0 /* Application */,
 				07521B9F204D41EB004DF5F0 /* Storyboard */,
+				07521BA7204D441E004DF5F0 /* Helper */,
 				07521B77204D3BE9004DF5F0 /* Assets.xcassets */,
 				07521B79204D3BE9004DF5F0 /* LaunchScreen.storyboard */,
 				07521B7C204D3BE9004DF5F0 /* Info.plist */,
@@ -108,7 +157,12 @@
 			isa = PBXGroup;
 			children = (
 				07521B85204D3BE9004DF5F0 /* StarWarsTests.swift */,
+				07521BBC204E2F88004DF5F0 /* SWGETPeopleApiModelTest.swift */,
+				0791DC73204E3E4A007D08DD /* SWCharacterModelTests.swift */,
+				0791DC75204EAF8E007D08DD /* SWCharactersAndEyeColorsModelTests.swift */,
+				0791DC79204EBD50007D08DD /* SWCharactersListViewModelTests.swift */,
 				07521B87204D3BE9004DF5F0 /* Info.plist */,
+				0791DC80204EE0B0007D08DD /* SWMockJsonStringPeopleApi.swift */,
 			);
 			path = StarWarsTests;
 			sourceTree = "<group>";
@@ -138,6 +192,77 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		07521BA2204D42C4004DF5F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07521BA3204D4316004DF5F0 /* SWCharacterListVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07521BA7204D441E004DF5F0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				07521BA5204D4418004DF5F0 /* Extension.swift */,
+				0791DC86204F202D007D08DD /* SWServiceError.swift */,
+				0791DC88204F209E007D08DD /* NetworkStatus.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		07521BAE204D8280004DF5F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07521BB2204DC70B004DF5F0 /* SWEyeColorModel.swift */,
+				07521BB0204D833A004DF5F0 /* SWCharacterModel.swift */,
+				07521BB4204DC758004DF5F0 /* SWCharactersAndEyeColorsModel.swift */,
+				07521BBA204E2CE1004DF5F0 /* SWGETPeopleApiModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07521BAF204D8297004DF5F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				07521BAC204D8277004DF5F0 /* SWCharactersListViewModel.swift */,
+				0791DC77204EB758007D08DD /* SWCharacterListCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0791DC7B204EC464007D08DD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0791DC7C204EC48A007D08DD /* SWPeopleApiProtocol.swift */,
+				0791DC8A204F3472007D08DD /* ApiEndPoint.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0791DC82204EFCA8007D08DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0791DC83204EFCA8007D08DD /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0791DC8C204F39F0007D08DD /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0791DC8D204F3A22007D08DD /* SWPeopleApiEndPoint.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		07BB6F46204F455600EF488C /* SWWebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				0791DC7E204EC616007D08DD /* SWWebServiceManager.swift */,
+			);
+			path = SWWebServiceManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +273,7 @@
 				07521B69204D3BE8004DF5F0 /* Sources */,
 				07521B6A204D3BE8004DF5F0 /* Frameworks */,
 				07521B6B204D3BE8004DF5F0 /* Resources */,
+				0791DC85204EFCCD007D08DD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -200,6 +326,7 @@
 		07521B65204D3BE8004DF5F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SW;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = HarpreetSingh;
@@ -267,12 +394,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0791DC85204EFCCD007D08DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07521B69204D3BE8004DF5F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0791DC7D204EC48A007D08DD /* SWPeopleApiProtocol.swift in Sources */,
+				0791DC78204EB758007D08DD /* SWCharacterListCellViewModel.swift in Sources */,
+				07521BA6204D4418004DF5F0 /* Extension.swift in Sources */,
+				07521BB5204DC758004DF5F0 /* SWCharactersAndEyeColorsModel.swift in Sources */,
+				0791DC8E204F3A22007D08DD /* SWPeopleApiEndPoint.swift in Sources */,
+				07521BA4204D4316004DF5F0 /* SWCharacterListVC.swift in Sources */,
+				07521BB1204D833A004DF5F0 /* SWCharacterModel.swift in Sources */,
 				07521B71204D3BE9004DF5F0 /* AppDelegate.swift in Sources */,
+				0791DC8B204F3472007D08DD /* ApiEndPoint.swift in Sources */,
+				07521BBB204E2CE1004DF5F0 /* SWGETPeopleApiModel.swift in Sources */,
+				0791DC89204F209E007D08DD /* NetworkStatus.swift in Sources */,
+				0791DC87204F202D007D08DD /* SWServiceError.swift in Sources */,
+				07521BAD204D8277004DF5F0 /* SWCharactersListViewModel.swift in Sources */,
+				0791DC7F204EC616007D08DD /* SWWebServiceManager.swift in Sources */,
+				07521BB3204DC70B004DF5F0 /* SWEyeColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +438,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0791DC81204EE0B1007D08DD /* SWMockJsonStringPeopleApi.swift in Sources */,
+				0791DC7A204EBD50007D08DD /* SWCharactersListViewModelTests.swift in Sources */,
+				07521BBD204E2F88004DF5F0 /* SWGETPeopleApiModelTest.swift in Sources */,
+				0791DC76204EAF8E007D08DD /* SWCharactersAndEyeColorsModelTests.swift in Sources */,
+				0791DC74204E3E4A007D08DD /* SWCharacterModelTests.swift in Sources */,
 				07521B86204D3BE9004DF5F0 /* StarWarsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +603,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6ZR6EEM93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StarWars/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -456,6 +623,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6ZR6EEM93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StarWars/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -472,6 +643,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6ZR6EEM93;
 				INFOPLIST_FILE = StarWarsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harpreet.StarWarsTests;
@@ -488,6 +660,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6ZR6EEM93;
 				INFOPLIST_FILE = StarWarsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harpreet.StarWarsTests;
